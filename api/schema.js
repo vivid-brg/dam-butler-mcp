@@ -36,17 +36,7 @@ export default function handler(req, res) {
         post: {
           operationId: "findBrandAssets",
           summary: "Find brand assets using natural language",
-          description: `Find Breville brand assets using natural language queries. The system understands:
-- Product names (Oracle Jet, Sage, etc.)
-- Asset types (logos, product photos, lifestyle shots)  
-- Use cases (presentation, web, print, social media)
-- Regions (AU, US, UK, EU, CA)
-
-Examples:
-- "Oracle Jet logo for my presentation"
-- "Sage product photos for UK website"  
-- "Red coffee machine lifestyle shots for social media"
-- "High-res lifestyle images for print campaign"`,
+          description: "Find Breville brand assets using natural language. Understands products (Oracle Jet, Sage), asset types (logos, photos), use cases (presentation, web, print), and regions (AU, US, UK, EU, CA).",
           requestBody: {
             required: true,
             content: {
