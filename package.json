@@ -1,0 +1,12 @@
+{
+  "name": "dam-butler-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api/mcp.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "22.x"
+  }
+}
