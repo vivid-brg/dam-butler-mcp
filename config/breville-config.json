@@ -1,0 +1,499 @@
+{
+“breville”: {
+“name”: “Breville Vault MCP”,
+“description”: “Intent-based digital asset management for Breville brands”,
+“version”: “1.0.0”
+},
+“products”: {
+“espresso_machines”: {
+“Oracle Jet”: {
+“model_code”: “BES985”,
+“sage_model”: “SES985”,
+“type”: “espresso”,
+“category”: “premium”,
+“launch_year”: 2023,
+“regions”: [“AU”, “US”, “CA”, “GB”, “DE”, “EU”],
+“keywords”: [“oracle”, “jet”, “espresso”, “automatic”, “premium”, “bes985”, “ses985”],
+“asset_priorities”: [“logo”, “product_photography”, “lifestyle_photography”],
+“skus”: {
+“AU”: [
+{“sku”: “BES985BSS4IAN1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-au/product/bes985?sku=BES985BSS4IAN1”},
+{“sku”: “BES985BTR4IAN1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.breville.com/en-au/product/bes985?sku=BES985BTR4IAN1”},
+{“sku”: “BES985NRE4IAN1”, “color”: “Noir”, “color_code”: “NRE”, “url”: “https://www.breville.com/en-au/product/bes985?sku=BES985NRE4IAN1”}
+],
+“US”: [
+{“sku”: “BES985BSS1BNA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-us/product/bes985?sku=BES985BSS1BNA1”},
+{“sku”: “BES985BTR1BNA1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.breville.com/en-us/product/bes985?sku=BES985BTR1BNA1”},
+{“sku”: “BES985NRE1BNA1”, “color”: “Noir”, “color_code”: “NRE”, “url”: “https://www.breville.com/en-us/product/bes985?sku=BES985NRE1BNA1”}
+],
+“CA”: [
+{“sku”: “BES985BSS1BCA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-ca/product/bes985?sku=BES985BSS1BCA1”},
+{“sku”: “BES985BTR1BCA1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.breville.com/en-ca/product/bes985?sku=BES985BTR1BCA1”}
+],
+“GB”: [
+{“sku”: “SES985BSS4GUK1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.sageappliances.com/en-gb/product/bes985?sku=SES985BSS4GUK1”},
+{“sku”: “SES985BTR4GUK1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.sageappliances.com/en-gb/product/bes985?sku=SES985BTR4GUK1”},
+{“sku”: “SES985NRE4GUK1”, “color”: “Noir”, “color_code”: “NRE”, “url”: “https://www.sageappliances.com/en-gb/product/bes985?sku=SES985NRE4GUK1”}
+],
+“DE”: [
+{“sku”: “SES985BSS4GDE1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.sageappliances.com/de-de/product/bes985?sku=SES985BSS4GDE1”},
+{“sku”: “SES985BTR4GDE1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.sageappliances.com/de-de/product/bes985?sku=SES985BTR4GDE1”}
+]
+}
+},
+“Oracle Dual Boiler”: {
+“model_code”: “BES995”,
+“sage_model”: “SES995”,
+“type”: “espresso”,
+“category”: “premium”,
+“launch_year”: 2022,
+“regions”: [“AU”, “US”, “CA”, “GB”, “DE”, “EU”],
+“keywords”: [“oracle”, “dual”, “boiler”, “espresso”, “professional”, “bes995”, “ses995”],
+“asset_priorities”: [“logo”, “product_photography”, “technical_documentation”],
+“skus”: {
+“AU”: [
+{“sku”: “BES995BSS4IAN1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-au/product/bes995?sku=BES995BSS4IAN1”},
+{“sku”: “BES995BTR4IAN1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.breville.com/en-au/product/bes995?sku=BES995BTR4IAN1”}
+],
+“US”: [
+{“sku”: “BES995BSS1BNA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-us/product/bes995?sku=BES995BSS1BNA1”},
+{“sku”: “BES995BTR1BNA1”, “color”: “Black Truffle”, “color_code”: “BTR”, “url”: “https://www.breville.com/en-us/product/bes995?sku=BES995BTR1BNA1”}
+],
+“CA”: [
+{“sku”: “BES995BSS1BCA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-ca/product/bes995?sku=BES995BSS1BCA1”}
+],
+“GB”: [
+{“sku”: “SES995BSS4GUK1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.sageappliances.com/en-gb/product/bes995?sku=SES995BSS4GUK1”}
+],
+“DE”: [
+{“sku”: “SES995BSS4GDE1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.sageappliances.com/de-de/product/bes995?sku=SES995BSS4GDE1”}
+]
+}
+},
+“Oracle Touch”: {
+“model_code”: “BES990”,
+“sage_model”: “SES990”,
+“type”: “espresso”,
+“category”: “premium”,
+“launch_year”: 2021,
+“regions”: [“AU”, “US”, “CA”, “GB”, “DE”, “EU”],
+“keywords”: [“oracle”, “touch”, “automatic”, “espresso”, “touchscreen”, “bes990”, “ses990”],
+“asset_priorities”: [“logo”, “product_photography”, “lifestyle_photography”],
+“skus”: {
+“AU”: [
+{“sku”: “BES990BSS4IAN1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-au/product/bes990?sku=BES990BSS4IAN1”}
+],
+“US”: [
+{“sku”: “BES990BSS1BNA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-us/product/bes990?sku=BES990BSS1BNA1”}
+],
+“GB”: [
+{“sku”: “SES990BSS4GUK1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.sageappliances.com/en-gb/product/bes990?sku=SES990BSS4GUK1”}
+]
+}
+}
+},
+“ovens”: {
+“Smart Oven Air Fryer”: {
+“model_code”: “BOV860”,
+“sage_model”: “SOV860”,
+“type”: “oven”,
+“category”: “premium”,
+“launch_year”: 2020,
+“regions”: [“AU”, “US”, “CA”, “GB”],
+“keywords”: [“smart”, “oven”, “air”, “fryer”, “bov860”, “sov860”],
+“asset_priorities”: [“logo”, “product_photography”, “lifestyle_photography”],
+“skus”: {
+“AU”: [
+{“sku”: “BOV860BSS4IAN1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-au/product/bov860?sku=BOV860BSS4IAN1”},
+{“sku”: “BOV860NRE4IAN1”, “color”: “Noir”, “color_code”: “NRE”, “url”: “https://www.breville.com/en-au/product/bov860?sku=BOV860NRE4IAN1”}
+],
+“US”: [
+{“sku”: “BOV860BSS1BNA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-us/product/bov860?sku=BOV860BSS1BNA1”},
+{“sku”: “BOV860NRE1BNA1”, “color”: “Noir”, “color_code”: “NRE”, “url”: “https://www.breville.com/en-us/product/bov860?sku=BOV860NRE1BNA1”}
+],
+“CA”: [
+{“sku”: “BOV860BSS1BCA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-ca/product/bov860?sku=BOV860BSS1BCA1”}
+],
+“GB”: [
+{“sku”: “SOV860BSS4GUK1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.sageappliances.com/en-gb/product/bov860?sku=SOV860BSS4GUK1”}
+]
+}
+}
+},
+“blenders”: {
+“Super Q”: {
+“model_code”: “BBL920”,
+“sage_model”: “SBL920”,
+“type”: “blender”,
+“category”: “premium”,
+“regions”: [“AU”, “US”, “CA”, “GB”, “DE”],
+“keywords”: [“super”, “q”, “blender”, “quiet”, “professional”, “bbl920”, “sbl920”],
+“asset_priorities”: [“logo”, “product_photography”, “lifestyle_photography”],
+“skus”: {
+“AU”: [
+{“sku”: “BBL920BSS4IAN1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-au/product/bbl920?sku=BBL920BSS4IAN1”}
+],
+“US”: [
+{“sku”: “BBL920BSS1BNA1”, “color”: “Brushed Stainless Steel”, “color_code”: “BSS”, “url”: “https://www.breville.com/en-us/product/bbl920?sku=BBL920BSS1BNA1”}
+]
+}
+}
+}
+},
+“brands”: {
+“region_mapping”: {
+“AU”: “Breville”,
+“US”: “Breville”,
+“CA”: “Breville”,
+“MX”: “Breville”,
+“NZ”: “Breville”,
+“GB”: “Sage”,
+“UK”: “Sage”,
+“DE”: “Sage”,
+“EU”: “Sage”,
+“FR”: “Sage”,
+“IT”: “Sage”,
+“ES”: “Sage”,
+“NL”: “Sage”
+},
+“brand_assets”: {
+“Breville”: {
+“primary_logo”: “breville-logo-primary”,
+“secondary_logo”: “breville-logo-secondary”,
+“wordmark”: “breville-wordmark”,
+“colors”: {
+“primary”: “#E31E24”,
+“secondary”: “#000000”,
+“accent”: “#FFFFFF”,
+“neutral”: “#F5F5F5”
+},
+“domains”: [“breville.com”],
+“social_handles”: {
+“instagram”: “@breville”,
+“facebook”: “@breville”,
+“youtube”: “@breville”
+}
+},
+“Sage”: {
+“primary_logo”: “sage-logo-primary”,
+“secondary_logo”: “sage-logo-secondary”,
+“wordmark”: “sage-wordmark”,
+“colors”: {
+“primary”: “#4A5D23”,
+“secondary”: “#000000”,
+“accent”: “#FFFFFF”,
+“neutral”: “#F8F8F6”
+},
+“domains”: [“sageappliances.com”],
+“social_handles”: {
+“instagram”: “@sageappliances”,
+“facebook”: “@sageappliances”,
+“youtube”: “@sageappliances”
+}
+}
+}
+},
+“asset_types”: {
+“logo”: {
+“description”: “Brand marks, product logos, lockups”,
+“formats”: [“PNG”, “SVG”, “EPS”, “PDF”],
+“use_cases”: [“presentation”, “web”, “print”, “social”],
+“priority”: 1,
+“vault_categories”: [“logos”, “brand-marks”, “identity”]
+},
+“product_photography”: {
+“description”: “Hero shots, technical photos, angle views”,
+“formats”: [“JPG”, “PNG”, “TIFF”, “RAW”],
+“use_cases”: [“web”, “print”, “social”, “packaging”, “ecommerce”],
+“priority”: 2,
+“vault_categories”: [“product-photos”, “hero-shots”, “technical-images”]
+},
+“lifestyle_photography”: {
+“description”: “In-use images, lifestyle shots, contextual photos”,
+“formats”: [“JPG”, “PNG”, “TIFF”],
+“use_cases”: [“marketing”, “social”, “web”, “print”, “advertising”],
+“priority”: 3,
+“vault_categories”: [“lifestyle”, “in-use”, “contextual”, “environment”]
+},
+“marketing_materials”: {
+“description”: “Campaign assets, banners, promotional graphics”,
+“formats”: [“PNG”, “JPG”, “PDF”, “PSD”, “AI”],
+“use_cases”: [“marketing”, “social”, “web”, “print”, “advertising”],
+“priority”: 4,
+“vault_categories”: [“campaigns”, “promotional”, “banners”, “graphics”]
+},
+“documentation”: {
+“description”: “Manuals, spec sheets, technical documentation”,
+“formats”: [“PDF”, “DOC”, “DOCX”, “PNG”],
+“use_cases”: [“support”, “training”, “print”, “digital”],
+“priority”: 5,
+“vault_categories”: [“manuals”, “specs”, “documentation”, “guides”]
+},
+“buyers_guide”: {
+“description”: “Product guides, buying information, comparisons”,
+“formats”: [“PDF”, “PNG”, “JPG”, “DOCX”],
+“use_cases”: [“sales”, “support”, “web”, “training”],
+“priority”: 6,
+“access_restricted”: true,
+“vault_categories”: [“buyers-guides”, “product-guides”, “comparisons”]
+},
+“packaging”: {
+“description”: “Package design, box art, labels”,
+“formats”: [“PDF”, “AI”, “EPS”, “PNG”],
+“use_cases”: [“print”, “production”, “reference”],
+“priority”: 7,
+“vault_categories”: [“packaging”, “box-art”, “labels”]
+},
+“video”: {
+“description”: “Product videos, tutorials, commercials”,
+“formats”: [“MP4”, “MOV”, “AVI”, “WebM”],
+“use_cases”: [“web”, “social”, “training”, “marketing”],
+“priority”: 8,
+“vault_categories”: [“videos”, “tutorials”, “commercials”, “demos”]
+}
+},
+“use_cases”: {
+“presentation”: {
+“description”: “High-resolution assets for presentations and slides”,
+“preferred_formats”: [“PNG”, “SVG”, “PDF”],
+“requirements”: [“transparent_background”, “high_resolution”, “brand_compliant”],
+“max_file_size”: “50MB”,
+“recommendations”: [“Use PNG for photos with transparency”, “Use SVG for logos and icons”, “Ensure 300 DPI for print quality”]
+},
+“web”: {
+“description”: “Optimized assets for web and digital use”,
+“preferred_formats”: [“PNG”, “JPG”, “WebP”, “SVG”],
+“requirements”: [“web_optimized”, “responsive”, “fast_loading”],
+“max_file_size”: “10MB”,
+“recommendations”: [“Use WebP for better compression”, “Optimize for mobile devices”, “Include alt text”]
+},
+“print”: {
+“description”: “High-resolution assets for print materials”,
+“preferred_formats”: [“PDF”, “EPS”, “PNG”, “TIFF”],
+“requirements”: [“cmyk_color”, “high_dpi”, “vector_preferred”, “print_ready”],
+“max_file_size”: “100MB”,
+“recommendations”: [“Use CMYK color mode”, “Ensure 300+ DPI”, “Include bleed for full-page designs”]
+},
+“social”: {
+“description”: “Social media optimized assets”,
+“preferred_formats”: [“PNG”, “JPG”, “MP4”, “GIF”],
+“requirements”: [“platform_specific_sizes”, “engaging”, “mobile_optimized”],
+“max_file_size”: “25MB”,
+“recommendations”: [“Follow platform aspect ratios”, “Keep file sizes small”, “Use engaging visuals”]
+},
+“email”: {
+“description”: “Email-safe assets and templates”,
+“preferred_formats”: [“PNG”, “JPG”],
+“requirements”: [“email_safe”, “lightweight”, “cross_client_compatible”],
+“max_file_size”: “5MB”,
+“recommendations”: [“Keep under 1MB when possible”, “Use web-safe fonts”, “Test across email clients”]
+},
+“packaging”: {
+“description”: “Package design and production files”,
+“preferred_formats”: [“PDF”, “AI”, “EPS”],
+“requirements”: [“print_ready”, “cmyk_color”, “vector_based”, “production_ready”],
+“max_file_size”: “200MB”,
+“recommendations”: [“Include die lines”, “Use spot colors when specified”, “Provide both outlined and editable text”]
+},
+“ecommerce”: {
+“description”: “Product images for online stores”,
+“preferred_formats”: [“JPG”, “PNG”, “WebP”],
+“requirements”: [“consistent_lighting”, “white_background”, “multiple_angles”],
+“max_file_size”: “15MB”,
+“recommendations”: [“Use consistent product photography”, “Include zoom functionality”, “Optimize for mobile shopping”]
+}
+},
+“regions”: {
+“AU”: {
+“name”: “Australia”,
+“brand”: “Breville”,
+“currency”: “AUD”,
+“language”: “en-AU”,
+“market_focus”: [“premium”, “innovation”, “quality”],
+“domain”: “breville.com/en-au”,
+“sku_pattern”: “BES###XXX#IAN#”,
+“region_code”: “IAN”
+},
+“US”: {
+“name”: “United States”,
+“brand”: “Breville”,
+“currency”: “USD”,
+“language”: “en-US”,
+“market_focus”: [“performance”, “innovation”, “lifestyle”],
+“domain”: “breville.com/en-us”,
+“sku_pattern”: “BES###XXX#BNA#”,
+“region_code”: “BNA”
+},
+“CA”: {
+“name”: “Canada”,
+“brand”: “Breville”,
+“currency”: “CAD”,
+“language”: “en-CA”,
+“market_focus”: [“quality”, “premium”, “reliability”],
+“domain”: “breville.com/en-ca”,
+“sku_pattern”: “BES###XXX#BCA#”,
+“region_code”: “BCA”
+},
+“GB”: {
+“name”: “United Kingdom”,
+“brand”: “Sage”,
+“currency”: “GBP”,
+“language”: “en-GB”,
+“market_focus”: [“craftsmanship”, “tradition”, “innovation”],
+“domain”: “sageappliances.com/en-gb”,
+“sku_pattern”: “SES###XXX#GUK#”,
+“region_code”: “GUK”
+},
+“DE”: {
+“name”: “Germany”,
+“brand”: “Sage”,
+“currency”: “EUR”,
+“language”: “de-DE”,
+“market_focus”: [“precision”, “engineering”, “quality”],
+“domain”: “sageappliances.com/de-de”,
+“sku_pattern”: “SES###XXX#GDE#”,
+“region_code”: “GDE”
+},
+“EU”: {
+“name”: “European Union”,
+“brand”: “Sage”,
+“currency”: “EUR”,
+“language”: “en-EU”,
+“market_focus”: [“design”, “sustainability”, “premium”],
+“domain”: “sageappliances.com”,
+“sku_pattern”: “SES###XXX#GEU#”,
+“region_code”: “GEU”
+}
+},
+“colors”: {
+“BSS”: {
+“name”: “Brushed Stainless Steel”,
+“hex”: “#C0C0C0”,
+“description”: “Premium brushed stainless steel finish”,
+“popularity”: 1
+},
+“BTR”: {
+“name”: “Black Truffle”,
+“hex”: “#2C2C2C”,
+“description”: “Sophisticated black truffle finish”,
+“popularity”: 2
+},
+“NRE”: {
+“name”: “Noir”,
+“hex”: “#1C1C1C”,
+“description”: “Elegant noir black finish”,
+“popularity”: 3
+},
+“CRM”: {
+“name”: “Cream”,
+“hex”: “#F5F5DC”,
+“description”: “Classic cream finish”,
+“popularity”: 4
+},
+“RED”: {
+“name”: “Cranberry Red”,
+“hex”: “#DC143C”,
+“description”: “Bold cranberry red finish”,
+“popularity”: 5
+},
+“WHT”: {
+“name”: “White”,
+“hex”: “#FFFFFF”,
+“description”: “Clean white finish”,
+“popularity”: 6
+},
+“SLV”: {
+“name”: “Silver”,
+“hex”: “#C0C0C0”,
+“description”: “Polished silver finish”,
+“popularity”: 7
+}
+},
+“search_synonyms”: {
+“oracle_jet”: [“oracle jet”, “bes985”, “ses985”, “jet”, “oracle”, “985”],
+“oracle_dual”: [“oracle dual”, “dual boiler”, “bes995”, “ses995”, “995”],
+“oracle_touch”: [“oracle touch”, “touch”, “bes990”, “ses990”, “990”],
+“smart_oven”: [“smart oven”, “air fryer”, “bov860”, “sov860”, “860”],
+“super_q”: [“super q”, “bbl920”, “sbl920”, “920”, “blender”],
+“logo”: [“brand”, “mark”, “identity”, “lockup”, “wordmark”, “symbol”],
+“product_photo”: [“hero shot”, “product image”, “product shot”, “technical photo”, “angle view”],
+“lifestyle”: [“in use”, “lifestyle shot”, “contextual”, “environment”, “kitchen scene”],
+“brushed_stainless”: [“bss”, “brushed stainless steel”, “stainless”, “steel”],
+“black_truffle”: [“btr”, “black truffle”, “black”, “truffle”],
+“noir”: [“nre”, “noir”, “black noir”],
+“cream”: [“crm”, “cream”, “beige”],
+“sage”: [“sage appliances”, “sage by heston”, “uk”, “europe”],
+“breville”: [“breville”, “australia”, “america”, “north america”],
+“sku_patterns”: [
+“bes985bss1bna1”, “ses985bss4guk1”, “bov860nre1bna1”,
+“bes995bss4ian1”, “bbl920bss4ian1”
+]
+},
+“intent_parsing”: {
+“confidence_thresholds”: {
+“high”: 0.8,
+“medium”: 0.6,
+“low”: 0.4
+},
+“fallback_strategies”: [
+“suggest_similar_products”,
+“show_popular_assets”,
+“request_clarification”,
+“show_related_categories”,
+“suggest_alternative_colors”
+],
+“context_clues”: {
+“presentation”: [“powerpoint”, “slides”, “deck”, “meeting”, “transparent”],
+“web”: [“website”, “online”, “digital”, “responsive”],
+“print”: [“brochure”, “poster”, “flyer”, “catalog”, “cmyk”],
+“social”: [“instagram”, “facebook”, “twitter”, “story”, “post”],
+“email”: [“newsletter”, “campaign”, “mail”, “lightweight”],
+“packaging”: [“box”, “package”, “label”, “production”],
+“ecommerce”: [“shop”, “store”, “product page”, “listing”]
+},
+“sku_recognition”: {
+“product_prefixes”: {
+“BES”: “Breville Espresso”,
+“SES”: “Sage Espresso”,
+“BOV”: “Breville Oven”,
+“SOV”: “Sage Oven”,
+“BBL”: “Breville Blender”,
+“SBL”: “Sage Blender”
+},
+“region_codes”: {
+“IAN”: “Australia”,
+“BNA”: “North America (US)”,
+“BCA”: “Canada”,
+“GUK”: “United Kingdom”,
+“GDE”: “Germany”,
+“GEU”: “Europe”
+}
+}
+},
+“vault_integration”: {
+“api_version”: “v4”,
+“base_url”: “https://api.brandfolder.com/v4”,
+“collections”: {
+“breville_au”: “collection_id_breville_au”,
+“breville_us”: “collection_id_breville_us”,
+“breville_ca”: “collection_id_breville_ca”,
+“sage_uk”: “collection_id_sage_uk”,
+“sage_de”: “collection_id_sage_de”,
+“sage_eu”: “collection_id_sage_eu”
+},
+“search_fields”: [
+“name”,
+“description”,
+“tags”,
+“custom_fields.sku”,
+“custom_fields.model_code”,
+“custom_fields.product_line”,
+“custom_fields.color_code”,
+“custom_fields.region”
+],
+“rate_limits”: {
+“requests_per_minute”: 60,
+“requests_per_hour”: 1000
+}
+}
+}
