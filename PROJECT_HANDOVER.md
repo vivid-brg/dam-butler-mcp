@@ -13,8 +13,8 @@
 
 ### **Core Innovation:**
 Instead of forcing users through complex DAM searches, users can simply ask:
-- "Oracle Jet logo for my presentation" → Gets PNG/SVG with transparency
-- "Sage social media assets for UK market" → Gets Instagram/Facebook optimized content
+- "Oracle Jet product photo for my presentation" → Gets PNG/SVG with transparency
+- "Oracle Dual Boiler social media assets for UK market" → Gets Instagram/Facebook optimized content
 - "Amazon A+ content for Oracle Dual Boiler" → Gets Amazon-specific deliverables
 
 ---
