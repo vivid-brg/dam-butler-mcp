@@ -1,7 +1,7 @@
 {
   "name": "dam-butler-mcp",
-  "version": "1.0.0",
-  "description": "Intent-based MCP for Breville's Vault DAM system - AI-powered brand asset discovery",
+  "version": "3.0.0",
+  "description": "Enterprise DAM Intelligence Platform with Advanced AI - Complete Breville Vault solution with analytics, visual AI, and real-time monitoring",
   "main": "api/mcp.js",
   "type": "module",
   "scripts": {
