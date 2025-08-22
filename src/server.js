@@ -1,4 +1,42 @@
-/**
+import dotenv from 'dotenv';
+import axios from 'axios';
+import { readFileSync } from 'fs';
+
+// Load environment variables
+dotenv.config();
+
+export class BrevilleVaultMCP {
+  constructor(config = {}) {
+    this.config = {
+      clientId: config.clientId || process.env.BRANDFOLDER_CLIENT_ID,
+      clientSecret: config.clientSecret || process.env.BRANDFOLDER_CLIENT_SECRET,
+      openaiApiKey: config.openaiApiKey || process.env.OPENAI_API_KEY,
+      vaultBaseUrl: config.vaultBaseUrl || process.env.VAULT_BASE_URL || 'https://thevault.work/breville',
+      vaultApiBase: config.vaultApiBase || process.env.VAULT_API_BASE || 'https://api.brandfolder.com/v4'
+    };
+
+    // Load product catalog
+    try {
+      const configData = readFileSync('./config/breville-config.json', 'utf8');
+      this.productCatalog = JSON.parse(configData);
+    } catch (error) {
+      console.warn('Warning: Could not load product catalog:', error.message);
+      this.productCatalog = { products: {} };
+    }
+  }
+
+  /**
+   * Initialize the MCP server
+   */
+  async initialize() {
+    console.log('🚀 Initializing DAM Butler MCP Server...');
+    console.log('✅ OpenAI API Key:', this.config.openaiApiKey ? 'Configured' : 'Not configured');
+    console.log('✅ Brandfolder OAuth:', (this.config.clientId && this.config.clientSecret) ? 'Configured' : 'Pending');
+    console.log('✅ Product Catalog:', Object.keys(this.productCatalog.products || {}).length, 'products loaded');
+    return true;
+  }
+
+  /**
    * Enhanced intent parsing using OpenAI with comprehensive Breville knowledge
    */
   async parseIntentWithOpenAI(userRequest, context) {
@@ -152,3 +190,36 @@ Respond ONLY with valid JSON in this exact format:
 
     return intent;
   }
+
+  /**
+   * Main asset search method
+   */
+  async findBrandAssets(request, context = {}) {
+    try {
+      // Parse user intent
+      let intent;
+      if (this.config.openaiApiKey) {
+        intent = await this.parseIntentWithOpenAI(request, context);
+      } else {
+        console.log('No OpenAI key - using basic parsing');
+        intent = this.parseIntentBasic(request, context);
+      }
+
+      // For now, return mock results since we're waiting for Brandfolder OAuth
+      return {
+        success: true,
+        intent,
+        results: [],
+        message: 'DAM Butler is ready! Waiting for Brandfolder OAuth setup.',
+        status: 'oauth_pending'
+      };
+    } catch (error) {
+      console.error('Asset search error:', error);
+      return {
+        success: false,
+        error: error.message,
+        intent: this.parseIntentBasic(request, context)
+      };
+    }
+  }
+}

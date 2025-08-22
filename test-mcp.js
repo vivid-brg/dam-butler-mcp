@@ -1,7 +1,4 @@
 
-Content is user-generated and unverified.
-#!/usr/bin/env node
-
 /**
  * 🧪 DAM Butler MCP Testing Script
  * Run: node test-mcp.js
