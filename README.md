@@ -41,7 +41,7 @@ Most companies build simple API wrappers that:
 User Request → Intent Parser → Smart Orchestrator → Perfect Results
      ↓              ↓               ↓                    ↓
 "Oracle Jet   Product=BES985   Enhanced Search    3 perfect matches
-logo for      Format=PNG       + Context          + Usage notes
+photo for      Format=PNG       + Context          + Usage notes
 presentation" UseCase=present  + Brand mapping    + Download links
 ```
 
@@ -86,11 +86,12 @@ presentation" UseCase=present  + Brand mapping    + Download links
 
 ### **2. Example Queries**
 ```
-💬 "Find Oracle Jet logo for my presentation"
-💬 "Get Sage product photos for UK market"  
+💬 "Find Oracle Jet product photo with transparent background for my presentation"
+💬 "Get Sage BES985 product photos for UK market"  
 💬 "Show me Oracle Dual Boiler lifestyle shots for social media"
 💬 "I need Australian buyer's guide assets"
 💬 "Find Breville logo in PNG format for email campaign"
+💬 "I need the BES881 manual for Australia"
 ```
 
 ### **3. Pro Tips**
