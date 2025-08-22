@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node api/mcp.js",
-    "dev": "vercel dev",
+    "dev": "node --experimental-modules api/index.js",
+    "dev-vercel": "vercel dev",
     "test": "node test-mcp.js",
     "deploy": "vercel --prod"
   },
