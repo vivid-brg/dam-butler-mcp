@@ -1,15 +1,42 @@
 {
   "name": "dam-butler-mcp",
   "version": "1.0.0",
+  "description": "Intent-based MCP for Breville's Vault DAM system - AI-powered brand asset discovery",
+  "main": "api/mcp.js",
   "type": "module",
   "scripts": {
-    "start": "node api/mcp.js"
+    "start": "node api/mcp.js",
+    "dev": "vercel dev",
+    "test": "node test-mcp.js",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "axios": "^1.11.0",
     "dotenv": "^17.2.1"
   },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  },
   "engines": {
     "node": "20.x"
-  }
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol", 
+    "breville",
+    "dam",
+    "digital-asset-management",
+    "chatgpt",
+    "enterprise",
+    "intent-based",
+    "ai-powered",
+    "brand-assets"
+  ],
+  "author": "Breville DAM Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vivid-brg/dam-butler-mcp.git"
+  },
+  "homepage": "https://dam-butler-mcp.vercel.app"
 }
