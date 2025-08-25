@@ -119,7 +119,7 @@ Our prompts encode **real Brandfolder documentation**:
 - Product Photography (hero images for web)
 - Lifestyle Photography (kitchen environment shots)
 - Digital Assets (web banners, EDM, programmatic ads)
-- Social Media (Instagram/Facebook campaigns, stories)
+- Social Media (Instagram/TikTok campaigns, stories)
 - Point of Sale (retail materials, POS displays)
 - YouTube Videos (tutorials, demos, TVC)
 - Logos (brand marks, partner logos)
